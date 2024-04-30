@@ -1,9 +1,10 @@
 import Clients from "@/sections/Clients";
 import Contactus from "@/sections/Contactus";
+import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
 import Projects from "@/sections/Projects";
 import Team from "@/sections/Team";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Clients />
         <Contactus />
         <Team />
+        <Footer/>
       </main>
     </>
   );
