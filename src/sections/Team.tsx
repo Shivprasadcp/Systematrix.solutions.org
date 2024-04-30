@@ -23,26 +23,20 @@ const TeamData = [
     }
 ];
 
-
-
 const Team = () => {
     return (
         <section>
             <Wrapper>
-
-                <div className='text-white font-semi-bold text-5xl flex justify-center mt-40'>
+                <div className='text-white font-semi-bold text-5xl flex justify-center mt-20 md:mt-40'>
                     <p>Our Team</p>
                 </div>
-                <div className=' mt-20  flex flex-col md:flex-row flex-wrap justify-between '>
-
-
-
+                <div className='mt-10 md:mt-20 flex flex-col md:flex-row flex-wrap justify-between'>
                     {TeamData.map((item, index) => (
                         <Teambox
+                            key={index}
                             member={item.header}
                             paragraph={item.description}
                             image={item.image}
-                        //  number={item.number}
                         />
                     ))}
                 </div>
@@ -52,4 +46,3 @@ const Team = () => {
 }
 
 export default Team;
-
