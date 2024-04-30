@@ -5,13 +5,14 @@ import Wrapper from '@/shared/Wrapper';
 
 const Clients = () => {
   return (
-    <section>
-        <Wrapper>
-      <div className='mt-40'>
-        <Image src={clients} alt='Clients data'/>
-      </div>
+    <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <Wrapper>
+        <div className='mt-40'>
+          <Image src={clients} alt='Clients data' />
+        </div>
       </Wrapper>
     </section>
+
   );
 }
 

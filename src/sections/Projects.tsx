@@ -45,7 +45,7 @@ const Projects = () => {
                 </div>
 
                 {/* Boxes */}
-                <div className='mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                <div className='mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-0.5 justify-items-center'>
                     {ProjectData.map((item, index) => (
                         <Projectbox
                             key={index}
@@ -54,6 +54,8 @@ const Projects = () => {
                         />
                     ))}
                 </div>
+
+
             </Wrapper>
         </section>
     );
