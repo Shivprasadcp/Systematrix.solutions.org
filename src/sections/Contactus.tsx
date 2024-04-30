@@ -13,7 +13,7 @@ const Contactus = () => {
           <div className='flex flex-col text-2xl bg-contact-box text-black p-5 mt-8 font-normal'>
             <div className="flex flex-col  md:space-x-8">
 
-              <div className="flex flex-row  mt-4 md:mt-0">
+              <div className="flex flex-row mt-4 md:mt-0">
                 <h4>Name:</h4>
                 <form>
                   <input className='bg-input-box rounded-lg mt-2' type="text" name="field-name" />
