@@ -15,7 +15,7 @@ const Hero = () => {
                         {/* Left */}
                         <div className='lg:w-1/2'>
                             <h4 className='text-3xl lg:text-5xl font-bold py-4 lg:py-10'>Software <br /> solutions</h4>
-                            <p className='w-full lg:w-72'>Welcome to Systematrix, Your Premier Software Solution Partner! Transforming Ideas into Reality with Innovative Technology Solutions.</p>
+                            <p className='w-full lg:w-72'>Welcome to DeepTrail, Your Premier Software Solution Partner! Transforming Ideas into Reality with Innovative Technology Solutions.</p>
                             <div className='flex flex-col gap-y-4 lg:flex-row mt-4 lg:mt-10'>
                                 <Button_white text={"Get Started"} />
                                 {/* <div className='hidden lg:block w-4'></div> Spacer for small screens */}

@@ -22,14 +22,14 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className='p-4 md:w-1/2'>
-                            <p>EMAIL ADDRESS:<br /> company_email_id@gmail.com</p>
+                            <p>EMAIL ADDRESS:<br /> deeptrail@gmail.com</p>
                         </div>
                     </div>
                 </div>
 
                 {/* Copyright */}
                 <div className='bg-black text-white py-4 flex justify-center'>
-                    <p>All Copyrights are reserved by Company name</p>
+                    <p>All Copyrights are reserved by DeepTrail </p>
                 </div>
             </Wrapper>
         </section>
