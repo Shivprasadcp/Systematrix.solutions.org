@@ -13,9 +13,9 @@ const Hero = () => {
                     <div className='flex flex-col-reverse lg:flex-row items-center justify-between text-white p-10'>
 
                         {/* Left */}
-                        <div className=' flex flex-col items-center  w-6/12 lg:w-1/2'>
+                        <div className=' flex flex-col items-center  w-full lg:w-1/2'>
                             <h4 className=' text-center text-3xl lg:text-5xl font-bold py-2 lg:py-10'>Software  solutions</h4>
-                            <p className=' text-center lg:w-6/12'>Welcome to DeepTrail, Your Premier Software Solution Partner! Transforming Ideas into Reality with Innovative Technology Solutions.</p>
+                            <p className=' text-center w-full lg:w-6/12'>Welcome to DeepTrail, Your Premier Software Solution Partner! Transforming Ideas into Reality with Innovative Technology Solutions.</p>
                             <div className='items-center justify-center flex flex-col gap-y-4 lg:flex-row mt-4 lg:mt-10'>
                                 <Button_white text={"Get Started"} />
                                 {/* <div className='hidden lg:block w-4'></div> Spacer for small screens */}
