@@ -10,43 +10,43 @@ const Contactus = () => {
           <h2 className='text-4xl font-serif text-center md:text-left'> Contact us</h2>
 
           {/* contact info */}
-          <div className=' flex flex-row mt-8 '>
+          <div className=' flex flex-col items-center mt-8 md:flex-row'>
 
 
             {/* Left */}
-            <div className='flex flex-col p-10 divide-y divide-white gap-y-4 bg-contact-box1 w-6/12'>
+            <div className='flex flex-col  p-10 divide-y divide-white gap-y-4 bg-contact-box1 w-6/12'>
               <div className="flex flex-row   md:mt-0">
                 <h4>Name:</h4>
                 <form>
-                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4' type="text" name="field-name" />
+                  <input className='bg-transparent border-none  focus:outline-none focus:border-transparent ml-4 w-full md:w-auto' type="text" name="field-name" />
                 </form>
               </div>
 
               <div className="flex flex-row   md:mt-0">
                 <h4>Email id:</h4>
                 <form>
-                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4 ' type="text" name="field-name" />
+                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4 w-full md:w-auto' type="text" name="field-name" />
                 </form>
               </div>
 
               <div className="flex flex-row  md:mt-0">
                 <h4>Phone no.:</h4>
                 <form>
-                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4' type="text" name="field-name" />
+                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4 w-full md:w-auto' type="text" name="field-name" />
                 </form>
               </div>
 
               <div className="flex flex-row  md:mt-0">
                 <h4>Subject:</h4>
                 <form>
-                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4' type="text" name="field-name" />
+                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4 w-full md:w-auto' type="text" name="field-name" />
                 </form>
               </div>
 
               <div className="flex flex-row md:mt-0">
                 <h4>Message:</h4>
                 <form>
-                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4' type="text" name="field-name" />
+                  <input className='bg-transparent border-none focus:outline-none focus:border-transparent ml-4 w-full md:w-auto' type="text" name="field-name" />
                 </form>
               </div>
 
