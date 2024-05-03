@@ -109,7 +109,7 @@ const Header = () => {
                     </div>
 
 
-                    <div className={` ${navbar ? 'p-12 md:p-0 block' : 'hidden'}`}>
+                    <div className={`${navbar ? 'block' : 'hidden'} lg:flex lg:items-center`}>
                         <ul className='flex flex-col  flex-wrap  lg:flex-row  gap-4 lg:gap-20 pr-1 '>
                             <li>
                                 <Link href="/#home" className='hover:text-gray-500 duration-300' onClick={() => setNavbar(!navbar)}>Home</Link>

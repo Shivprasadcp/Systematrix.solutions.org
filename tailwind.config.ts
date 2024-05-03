@@ -24,7 +24,8 @@ const config: Config = {
       colors: {
         'custom-gray': '#111111',
         'custom-proj': '#262626',
-        'contact-box': '#6C6C6C',
+        'contact-box1': '#262626',
+        'contact-box2': '#111111',
         'input-box': '#868686',
       },
     },

@@ -8,7 +8,7 @@ const Footer = () => {
         <section>
             <Wrapper>
                 {/* Footer Content */}
-                <div className='mt-14 flex flex-col md:flex-row md:p-8 bg-contact-box text-white'>
+                <div className='mt-72 flex flex-col md:flex-row md:p-8 bg-contact-box1 text-white'>
                     {/* Logo */}
                     <div className='w-full md:w-1/3 md:relative md:top-2.5 md:left-1'>
                         <Image src={logo} alt='Logo' />
