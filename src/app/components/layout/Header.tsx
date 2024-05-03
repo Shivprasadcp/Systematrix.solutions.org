@@ -91,7 +91,7 @@ const Header = () => {
 
                     <div className='flex flex-row gap-48 justify-between items-center '>
                         <Link href="/" className='hover:text-teal-700 duration-300'>
-                            <div className='w-28 h-28 lg:w-36 lg:h-36 relative top-2.5'>
+                            <div className='w-10 h-14  relative top-2.5'>
                                 <Image src={logo} alt='Logo' />
                             </div>
                         </Link>

@@ -11,7 +11,7 @@ const Teambox: FC<IProps> = ({ member, paragraph, image }) => {
   return (
     <div className='relative mt-8'>
       {/* Image */}
-      <div className='absolute top-0 left-1/2 transform -translate-x-1/2 mt-4' style={{ top: '-50px' }}>
+      <div className='absolute top-0 left-1/2 transform -translate-x-1/2 mt-1' style={{ top: '-50px' }}>
         <Image src={image} alt='image' width={100} height={100} />
       </div>
       {/* Content */}
