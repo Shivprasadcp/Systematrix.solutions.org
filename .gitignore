@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+#Deep trail 
+deep-trail-contact-form-eacf01c8060c.json
