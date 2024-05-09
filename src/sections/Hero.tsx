@@ -4,7 +4,7 @@ import Heroposter from '@/assets/Hero img.png';
 import Image from 'next/image';
 import Button from '@/shared/Button';
 import Button_white from '@/shared/Button_white';
-import { inter } from '@/app/font'
+// import { inter } from '@/app/font'
 
 const Hero = () => {
     return (
@@ -15,9 +15,9 @@ const Hero = () => {
 
                         {/* Left */}
                         <div className=' flex flex-col items-center  w-full lg:w-1/2'>
-                            <h4 className='{inter.className} text-center text-3xl lg:text-5xl font-bold py-2 lg:py-10'>Software  solutions</h4>
-                            <p className=' text-center w-full lg:w-6/12'>Welcome to DeepTrail, Your Premier Software Solution Partner! Transforming Ideas into Reality with Innovative Technology Solutions.</p>
-                            <div className='items-center justify-center flex flex-col gap-y-4 lg:flex-row mt-4 lg:mt-10'>
+                            <h4 className='font-sans text-center text-3xl lg:text-5xl font-bold py-2 lg:py-10'>Software  solutions</h4>
+                            <p className='  font-roboto font-light text-center w-full lg:w-6/12'>Welcome to DeepTrail, Your Premier Software Solution Partner! Transforming Ideas into Reality with Innovative Technology Solutions.</p>
+                            <div className='font-jac items-center justify-center flex flex-col gap-y-4 lg:flex-row mt-4 lg:mt-10'>
                                 <Button_white text={"Get Started"} />
                                 {/* <div className='hidden lg:block w-4'></div> Spacer for small screens */}
                                 <Button text={"Learn more"} />

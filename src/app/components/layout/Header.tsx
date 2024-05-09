@@ -55,6 +55,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import x from '../../../assets/x.png'
 import menu from '../../../assets/menu.png'
+// import { inter } from '@/app/font'
 
 const Header = () => {
 
@@ -109,7 +110,7 @@ const Header = () => {
                     </div>
 
 
-                    <div className={`${navbar ? 'block' : 'hidden'} lg:flex lg:items-center`}>
+                    <div className={`${navbar ? 'block' : 'hidden'} font-sans lg:flex lg:items-center`}>
                         <ul className='flex flex-col  flex-wrap  lg:flex-row  gap-4 lg:gap-20 pr-1 '>
                             <li>
                                 <Link href="/#home" className='hover:text-gray-500 duration-300' onClick={() => setNavbar(!navbar)}>Home</Link>

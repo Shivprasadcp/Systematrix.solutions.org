@@ -28,8 +28,17 @@ const config: Config = {
         'contact-box2': '#111111',
         'input-box': '#868686',
       },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        roboto: ['Roboto_Mono', 'sans-serif'],
+        jac: ['Jacques Francois', 'sans-serif'],
+        
+        // Add custom font here if needed
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/forms')
+  ],
 };
 export default config;
