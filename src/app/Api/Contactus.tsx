@@ -28,7 +28,16 @@ const Contactus = () => {
       message
     }
 
-    const  response =  await fetch('http://localhost:3000/Api/info',{
+    // const  response =  await fetch('http://localhost:3000/Api/info',{
+    //   method: 'POST',
+    //   headers: {
+    //     'Accept':'application/json',
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body:JSON.stringify(form)
+    // })
+
+    const  response =  await fetch(` ${window.location.origin}/Api/info`,{
       method: 'POST',
       headers: {
         'Accept':'application/json',
