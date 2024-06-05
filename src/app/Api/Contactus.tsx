@@ -37,7 +37,7 @@ const Contactus = () => {
     //   body:JSON.stringify(form)
     // })
 
-    const  response =  await fetch(` ${window.location.origin}/Api/info`,{
+    const  response =  await fetch(`${window.location.origin}/Api/info`,{
       method: 'POST',
       headers: {
         'Accept':'application/json',
