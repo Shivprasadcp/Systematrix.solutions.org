@@ -50,7 +50,7 @@ const Contactus = () => {
 
     console.log(content)
 
-    alert(content.data.tableRange)
+    // alert(content.data.tableRange)
 
     setName('')
     setEmail('')
